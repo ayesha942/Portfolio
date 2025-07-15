@@ -48,6 +48,32 @@ const projects = [
     accentColor: "from-blue-500 to-indigo-600"
   },
   {
+  title: 'Job Listing Aggregator (Microservices Architecture)',
+  desc: 'A scalable job listing aggregator that scrapes job data using Selenium and serves data through a Flask backend in a microservices architecture. The ReactJS frontend displays jobs from multiple sources including JobActuary. Each service is containerized for modular deployment.',
+  tech: ['ReactJS', 'Flask', 'Selenium', 'Microservices', 'Docker'],
+  links: [
+    {
+      label: 'GitHub Repo',
+      href: 'https://github.com/ayesha942/JobListingApp.git',
+      icon: <FiGithub className="inline mr-1" />
+    }
+  ],
+  accentColor: "from-fuchsia-500 to-rose-600"
+},
+{
+  title: 'AI Resume Scanner with Prompt Engineering',
+  desc: 'An intelligent resume screening system where users upload their resumes and receive an analysis based on job relevance. Utilizes NLP techniques and prompt engineering with a Flask backend and ReactJS frontend. Extracts, parses, and scores resumes against ideal job criteria.',
+  tech: ['ReactJS', 'Flask', 'NLP', 'Prompt Engineering'],
+  links: [
+    {
+      label: 'GitHub Repo',
+      href: 'https://github.com/ayesha942/AI-Resume-Scanner-.git',
+      icon: <FiGithub className="inline mr-1" />
+    }
+  ],
+  accentColor: "from-cyan-500 to-sky-600"
+},
+  {
     title: 'Arabic Poem Encyclopedia',
     desc: 'A Java desktop application for scholars and enthusiasts to explore classical Arabic poetry. Includes features like poetic meter analysis, rhyme scheme detection, poet biographies, and a sophisticated search system that can find poems by partial verses or themes. The database contains over 5,000 poems from different Islamic eras.',
     tech: ['Java', 'MySQL','MVC'],
