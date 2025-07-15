@@ -142,7 +142,7 @@ const HeroSection = () => {
 
         {/* 📄 Download CV */}
         <motion.a
-          href="/ayesha-munir-cv.pdf"
+          href="/AyeshaResume.pdf"
           download
           whileHover={{
             scale: 1.05,
